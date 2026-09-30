@@ -4,6 +4,8 @@ Flipkart Sales ETL Pipeline
 
 A simple, beginner-friendly ETL (Extract, Transform, Load) pipeline built in Python. It reads raw sales/match data from a CSV file, cleans it, and saves a clean version — ready for analysis or loading into a data warehouse like Snowflake.
 
+
+
 This project was built as part of my Data Engineering learning journey, to practice core DE concepts: OOP, file handling, data cleaning with Pandas, logging, and error handling.
 
 What It Does
@@ -21,20 +23,10 @@ Pandas	Data cleaning & transformation
 logging	Tracking pipeline progress and errors
 pathlib	Safe, cross-platform file path handling
 python-dotenv	Keeping file paths/credentials out of the code
-Project Structure
-flipkart-sales-etl/
-│
-├── pipeline.py         # Main ETL pipeline code
-├── .env                # Local file paths (NOT committed to GitHub)
-├── .env.example        # Template showing what .env should look like
-├── .gitignore           # Tells Git to ignore .env and other local files
-├── requirements.txt     # Python libraries needed
-└── README.md            # This file
 Setup Instructions
 1. Clone the repo
 bash
-git clone https://github.com/your-username/flipkart-sales-etl.git
-cd flipkart-sales-etl
+
 2. Install dependencies
 bash
 pip install -r requirements.txt
@@ -71,4 +63,4 @@ Future Improvements
  Schedule the pipeline to run automatically (e.g., with Airflow)
 Author
 
-Built by [Your Name] as part of my Data Engineering learning journey.
+Built by Ravindra Chilhate as part of my Data Engineering learning journey.
