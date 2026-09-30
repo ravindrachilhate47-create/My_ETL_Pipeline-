@@ -4,8 +4,8 @@ from pathlib import Path
 
 logging.basicConfig(level=logging.INFO)
 
-input_file= Path(r"C:\Users\Ravindra Chilhate\OneDrive\Desktop\Book1.csv")
-output_file = Path(r"C:\Users\Ravindra Chilhate\OneDrive\Desktop\keggel projects\clean_flipkart.csv")
+input_file= Path("file name ")
+output_file = Path("file name ")
 
 class flipkart_sales:
     def __init__(self,input_file,output_file):
